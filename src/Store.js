@@ -1,15 +1,23 @@
-import {create }from 'zustand';
-
-const useStore = create((set,get) => ({
+import { create } from 'zustand';
+import { Timer} from './Timer'
+const useStore = create((set, get) => ({
   ip: '',
-  blocks: {}, 
-  Start:{},
-  tfs:{},
-  items:{},
+  blocks: {},
+  Start: {},
+  lines:{},
+  hulls:{},
+  texts:{},
+  points:{},
+  widgets:{},
+  clock: new Timer(),
+  tfs: {
+  },
+  items: {
+  },
 
   setIp: (ip) => set({ ip }),
-  addBlock: (id, json) => set((state) => ({ 
-    blocks: { ...state.blocks, [id]: json}
+  addBlock: (id, json) => set((state) => ({
+    blocks: { ...state.blocks, [id]: json }
   })),
   removeBlock: (id) => set((state) => {
     // Create a new object excluding the block with the given id
@@ -18,26 +26,27 @@ const useStore = create((set,get) => ({
         acc[currentId] = state.blocks[currentId];
       }
       return acc;
-    }, {}); 
- 
+    }, {});
+
     // Update the state with the new blocks object
     return { blocks: newBlocks };
   }),
   updateBlock: (id, updatedJson) => set((state) => ({
-    blocks: { ...state.blocks, [id]: updatedJson  }
+    blocks: { ...state.blocks, [id]: updatedJson }
   })),
+  updateTfs: (newTfs) => set({ tfs: newTfs }),
+  updateItems: (newItems) => set({ items: newItems }),
   getBlock: (id) => get().blocks[id],
 
   getBlocksByType: (type) => {
     const blocks = get().blocks;
     return Object.values(blocks).filter(block => block.type === type)[0];
-  }, 
+  },
 
 
 
-
-  addBlocktoStart: (id, json) => set((state) => ({ 
-    Start: { ...state.Start, [id]: json}
+  addBlocktoStart: (id, json) => set((state) => ({
+    Start: { ...state.Start, [id]: json }
   })),
   removeBlockfromStart: (id) => set((state) => {
     // Create a new object excluding the block with the given id
@@ -47,11 +56,11 @@ const useStore = create((set,get) => ({
       }
       return acc;
     }, {});
- 
+
     // Update the state with the new blocks object
     return { Start: newBlocks };
   }),
-  
+
 }));
 
 export default useStore;
