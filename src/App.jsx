@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { Scene } from "robot-scene"
 import useStore from "./Store.js"
 import { MeshLookupTable } from './MeshLookup.js'
-import {parseUrdfForJoints, parseUrdfForLinks} from "./tfs.js"
+import {parseUrdfForJoints, parseUrdfForLinks} from "./URDFParser.js"
 import urdf from "./MeshLoaders/Stretch/stretch_main.urdf?raw"
 import './App.css'
 
@@ -25,7 +25,7 @@ function App() {
   }, [items]); 
 
   useEffect(()=>{
-    tfs&& useStore.getState().updateTfs(tfs);
+    tfs && useStore.getState().updateTfs(tfs);
     console.log(tfs)
   }, [tfs])
   useEffect(()=>{
