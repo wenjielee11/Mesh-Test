@@ -112,14 +112,21 @@ export function parseUrdfForJoints(urdfContent, items) {
     // Convert from Euler angles (rpy) to quaternion
     const quaternion = quaternionFromEuler(rpy, "sxyz");
 
-    jointsInfo[jointName] = {
+    jointsInfo[child] = {
       frame: parent,
       position: { "x": xyz[0], "y": xyz[1], "z": xyz[2] },
       rotation: { "w": quaternion[0], "x": quaternion[1], "y": quaternion[2], "z": quaternion[3] },
-      scale: { "x": 10, "y": 10, "z": 10 }
+      scale: { "x": 1, "y": 1, "z": 1 }
     };
-    items[child].frame = parent;
+
   });
+  jointsInfo["base_link"] = {
+    frame: "world",
+    position :{ "x": 0, "y": 0, "z": 0},
+    rotation:{"w":1, "x":0, "y":0, "z":0},
+    scale: {"x": 5, "y": 5, "z": 5}
+  }
+  
   return jointsInfo;
 }
 
@@ -155,12 +162,12 @@ export function parseUrdfForLinks(urdfContent) {
       position: { "x": origin[0], "y": origin[1], "z": origin[2] },
       rotation: { "w": 1, "x": rpy[0], "y": rpy[1], "z": rpy[2] }, 
       color: { "r": color[0], "g": color[1], "b": color[2], "a": color[3] },
-      scale: { "x": 10, "y": 10, "z": 10 }, 
+      scale: { "x": 1, "y": 1, "z": 1 }, 
       highlight: "false"
     };
            
   });
-  items['base_link'].frame = "world"
+  
   return items; // Return the populated items dictionary
 }
 
