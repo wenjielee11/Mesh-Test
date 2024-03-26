@@ -1,5 +1,5 @@
 import base_imu from "./MeshLoaders/./Stretch/visual/base_imu.js"
-import base_link from "./MeshLoaders/./Stretch/visual/base_link.js"
+import base_link from "./MeshLoaders/Stretch/visual/base_link.js"
 import laser from "./MeshLoaders/./Stretch/visual/laser.js"
 import link_arm_l0 from "./MeshLoaders/./Stretch/visual/link_arm_l0.js"
 import link_arm_l1 from "./MeshLoaders/./Stretch/visual/link_arm_l1.js"

@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0",
     "react-xml-parser": "^1.1.8",
     "robot-scene": "github:Wisc-HCI/robot-scene#v0.9.10",
+    "vite-plugin-string": "^1.2.3",
     "zustand": "^4.5.2"
   },
   "devDependencies": {

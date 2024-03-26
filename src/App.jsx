@@ -11,7 +11,7 @@ import './App.css'
 function App() {
   const [tfs, setTfs] = useState(null)
   const [items, setItems] = useState(null)
-
+  
   useEffect( ()=>{
     const items = parseUrdfForLinks(urdf)
     setItems(items) 
@@ -28,6 +28,7 @@ function App() {
     tfs && useStore.getState().updateTfs(tfs);
     console.log(tfs)
   }, [tfs])
+
   useEffect(()=>{
     items&& useStore.getState().updateItems(items);
     console.log(items)

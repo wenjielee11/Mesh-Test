@@ -10,24 +10,24 @@ const useStore = create((set, get) => ({
   points:{},
   widgets:{},
   clock: new Timer(),
-  tfs: {
-    // "base_link": {
-    //   frame: "world",
-    //   position: { "x": 0, "y": 0, "z": 0 },
-    //   rotation: { "w": 1, "x": 0, "y": 0, "z": 0 },
-    //   scale: { "x": 1, "y": 1, "z": 1 }
+  tfs:{
+    // "base_link":{
+    //   frame:"world",
+    //   position:{"x":0, "y":0, "z":0},
+    //   rotation:{"w":1, "x": 0, "y":0, "z":0},
+    //   scale:{"x":1, "y":1, "z":1},
     // }
   },
-  items: {
-    // "test":{
-    //   shape: "package://stretch_description/meshes/link_head_tilt.STL",
-    //   name: "test",
-    //   frame: "world", 
-    //   position: { "x": 0, "y": 0, "z": 0 },
-    //   rotation: { "w": 1, "x": 0, "y": 0, "z": 0 }, 
-    //   color: { "r": 1, "g": 1, "b": 1, "a": 1 },
-    //   scale: { "x": 10, "y": 10, "z": 10 }, 
-    //   highlight: "false"
+  items:{
+    // "base_link":{
+    // shape:"package://stretch_description/meshes/base_link.STL",
+    // name:"base_link",
+    // frame:"base_link",
+    // position:{"x":0, "y":0, "z":0},
+    //   rotation:{"w":1, "x": 0, "y":0, "z":0},
+    //   scale:{"x":1, "y":1, "z":1},
+    //   highlighted:"False",
+    //   color:{"r":255, "g":0, "b":0, "a":1}
     // }
   },
 
