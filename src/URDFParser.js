@@ -170,7 +170,9 @@ export function parseUrdfForLinks(urdfContent) {
       let color;
       // Check if color is defined directly
       if (visual.material.color) {
-        color = visual.material.color["@_rgba"].split(' ').map(Number);
+        // Change this to a dict!
+        let arrcolor = visual.material.color["@_rgba"].split(' ').map(Number);
+        color = { "r": arrcolor[0], "g": arrcolor[1], "b": arrcolor[2], "a": arrcolor[3] };
       } else if (visual.material["@_name"] && materialsMap[visual.material["@_name"]]) {
         // Use material name to find color
         color = materialsMap[visual.material["@_name"]];
@@ -181,14 +183,15 @@ export function parseUrdfForLinks(urdfContent) {
       // Assuming visual origin is always present
       const origin = visual.origin["@_xyz"].split(' ').map(Number);
       const rpy = visual.origin["@_rpy"].split(' ').map(Number);
+      const quaternion = quaternionFromEuler(rpy, "sxyz");
 
       items[linkName] = {
         shape: geometry,
         name: linkName,
         frame: linkName,
-        position: { "x": origin[0], "y": origin[1], "z": origin[2] },
-        rotation: { "w": 1, "x": rpy[0], "y": rpy[1], "z": rpy[2] },
-        color: color,
+        position: { "x": 0, "y": 0, "z": 0 },
+        rotation: { "w": 1, "x": 0, "y": 0, "z": 0 },
+        color: { "r": 1, "g": 1, "b": 1, "a": 1 },
         scale: scale? {"x": scale[0], "y": scale[1], "z": scale[2]}: { "x": 1, "y": 1, "z": 1 },
         highlight: "false"
       };

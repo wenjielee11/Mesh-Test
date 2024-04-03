@@ -1,0 +1,4900 @@
+{
+    "tfs": {
+        "wheel_actuated_left": {
+            "frame": "base_footprint",
+            "position": {
+                "x": 0.0,
+                "y": 0.2135,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "wheel_actuated_left_visualizer": {
+            "frame": "wheel_actuated_left",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "wheel_actuated_right": {
+            "frame": "base_footprint",
+            "position": {
+                "x": 0.0,
+                "y": -0.2135,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "wheel_actuated_right_visualizer": {
+            "frame": "wheel_actuated_right",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "caster_left_wheel": {
+            "frame": "caster_left_base",
+            "position": {
+                "x": -0.02626,
+                "y": 0.0,
+                "z": -0.042385
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "caster_left_base": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.5,
+                "y": 0.16349999999999998,
+                "z": -0.01
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "caster_right_wheel": {
+            "frame": "caster_right_base",
+            "position": {
+                "x": -0.02626,
+                "y": 0.0,
+                "z": -0.042385
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "caster_right_base": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.5,
+                "y": -0.16349999999999998,
+                "z": -0.01
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "platform_base_link": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.113,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lidar_front": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.25762,
+                "y": 0.15592,
+                "z": -0.01
+            },
+            "rotation": {
+                "w": 0.0007963267107332633,
+                "x": 0.0,
+                "y": 0.9999996829318346,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lidar_back": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.25762,
+                "y": -0.15592,
+                "z": -0.01
+            },
+            "rotation": {
+                "w": 6.341362302272584e-07,
+                "x": -0.9999993658637698,
+                "y": 0.0007963264582434141,
+                "z": 0.0007963264582434141
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lidar_front_helper": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.25762,
+                "y": 0.15592,
+                "z": -0.01
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": -0.7068249569936026,
+                "y": 0.707388044876899,
+                "z": 0.0005628637715330792
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lidar_back_helper": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.25762,
+                "y": -0.15592,
+                "z": -0.01
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": -0.7068249569936026,
+                "y": 0.707388044876899,
+                "z": 0.0005628637715330792
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "LIO_base_link": {
+            "frame": "platform_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.0725
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "LIO_robot_base_link": {
+            "frame": "LIO_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.2655
+            },
+            "rotation": {
+                "w": 0.7073882691671998,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.706825181105366
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "rgbd_down_link": {
+            "frame": "LIO_base_link",
+            "position": {
+                "x": 0.243,
+                "y": -0.0175,
+                "z": 0.206
+            },
+            "rotation": {
+                "w": 0.9971888181122075,
+                "x": 0.0,
+                "y": 0.07492970727274234,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "rgbd_up_link": {
+            "frame": "LIO_base_link",
+            "position": {
+                "x": 0.243,
+                "y": 0.0175,
+                "z": 0.206
+            },
+            "rotation": {
+                "w": 0.0007940880915072846,
+                "x": 0.9971885019353784,
+                "y": -5.966852732870919e-05,
+                "z": 0.07492968351491752
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "fisheye_base_link_mount": {
+            "frame": "fisheye_fisheye_base_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": -0.025,
+                "z": 0.0025
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_link12": {
+            "frame": "LIO_robot_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.212
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_link23": {
+            "frame": "lio_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1505
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_link34": {
+            "frame": "lio_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.29
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_link45": {
+            "frame": "lio_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1645
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_link56": {
+            "frame": "lio_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1455
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_link6G": {
+            "frame": "lio_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.129
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_gripper_interface_link": {
+            "frame": "lio_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.046
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_gripper_link": {
+            "frame": "lio_gripper_interface_link",
+            "position": {
+                "x": -0.052,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": 0.7068249569936026,
+                "y": -0.0005628637715330792,
+                "z": 0.707388044876899
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_left_finger": {
+            "frame": "lio_gripper_link",
+            "position": {
+                "x": 0.0645,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_right_finger": {
+            "frame": "lio_gripper_link",
+            "position": {
+                "x": 0.0645,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lio_tcp_link": {
+            "frame": "lio_gripper_link",
+            "position": {
+                "x": 0.189,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "tis_cam": {
+            "frame": "lio_tcp_link",
+            "position": {
+                "x": -0.095,
+                "y": 0.0,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.5000000000000001,
+                "x": -0.5000000000000001,
+                "y": 0.5000000000000001,
+                "z": -0.5000000000000001
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "tis_cam_sim_plugin": {
+            "frame": "tis_cam",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 0.7071067811865476,
+                "x": 0.0,
+                "y": -0.7071067811865476,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "base_footprint": {
+            "frame": "world",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US1": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.625,
+                "y": -0.095,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.0007963267107332633,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.9999996829318346
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US2": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.585,
+                "y": -0.231,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.3832351466006183,
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.9236508119468106
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US3": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.272,
+                "y": -0.255,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.7073882691671998,
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.706825181105366
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US4": {
+            "frame": "base_footprint",
+            "position": {
+                "x": 0.097,
+                "y": -0.255,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.9239556994702721,
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.3824994972760097
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US5": {
+            "frame": "base_footprint",
+            "position": {
+                "x": 0.145,
+                "y": -0.121,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.9993875625234886,
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.034992854604336196
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US6": {
+            "frame": "base_footprint",
+            "position": {
+                "x": 0.145,
+                "y": 0.121,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.9993875625234886,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.034992854604336196
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US7": {
+            "frame": "base_footprint",
+            "position": {
+                "x": 0.097,
+                "y": 0.255,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.9239556994702721,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.3824994972760097
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US8": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.272,
+                "y": 0.255,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.7073882691671998,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.706825181105366
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US9": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.585,
+                "y": 0.231,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.3832351466006183,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.9236508119468106
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "US10": {
+            "frame": "base_footprint",
+            "position": {
+                "x": -0.625,
+                "y": 0.095,
+                "z": 0.053
+            },
+            "rotation": {
+                "w": 0.0007963267107332633,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.9999996829318346
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "LIOc_base_link": {
+            "frame": "platform_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.0725
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "hip": {
+            "frame": "LIOc_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.498
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "torso": {
+            "frame": "hip",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.172
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "head": {
+            "frame": "torso",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.45768
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_link12": {
+            "frame": "torso",
+            "position": {
+                "x": 0.0,
+                "y": 0.0859,
+                "z": 0.366
+            },
+            "rotation": {
+                "w": 0.7071067811882787,
+                "x": -0.7071067811848163,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_link23": {
+            "frame": "left_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1505
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_link34": {
+            "frame": "left_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.29
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_link45": {
+            "frame": "left_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1645
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_link56": {
+            "frame": "left_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1455
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_link6G": {
+            "frame": "left_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.129
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_gripper_interface_link": {
+            "frame": "left_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.046
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_link12": {
+            "frame": "torso",
+            "position": {
+                "x": 0.0,
+                "y": -0.0859,
+                "z": 0.366
+            },
+            "rotation": {
+                "w": -7.312301077203117e-14,
+                "x": 7.312301077167311e-14,
+                "y": -0.7071067811848163,
+                "z": 0.7071067811882787
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_link23": {
+            "frame": "right_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1505
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_link34": {
+            "frame": "right_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.29
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_link45": {
+            "frame": "right_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1645
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_link56": {
+            "frame": "right_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1455
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_link6G": {
+            "frame": "right_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.129
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_gripper_interface_link": {
+            "frame": "right_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.046
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_gripper_link": {
+            "frame": "left_gripper_interface_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_left_finger": {
+            "frame": "left_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": -0.01132,
+                "z": 0.092783
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": 0.707388044876899,
+                "y": -0.0005628637715330792,
+                "z": 0.7068249569936026
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_left_finger_tip": {
+            "frame": "left_left_finger",
+            "position": {
+                "x": 0.05689,
+                "y": 0.01398,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_right_finger": {
+            "frame": "left_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.01132,
+                "z": 0.092783
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": 0.707388044876899,
+                "y": -0.0005628637715330792,
+                "z": 0.7068249569936026
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_right_finger_tip": {
+            "frame": "left_right_finger",
+            "position": {
+                "x": 0.05689,
+                "y": -0.01398,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "left_tcp_link": {
+            "frame": "left_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.215
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": 0.707388044876899,
+                "y": -0.0005628637715330792,
+                "z": 0.7068249569936026
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_gripper_link": {
+            "frame": "right_gripper_interface_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_left_finger": {
+            "frame": "right_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": -0.01132,
+                "z": 0.092783
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": 0.707388044876899,
+                "y": -0.0005628637715330792,
+                "z": 0.7068249569936026
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_left_finger_tip": {
+            "frame": "right_left_finger",
+            "position": {
+                "x": 0.05689,
+                "y": 0.01398,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_right_finger": {
+            "frame": "right_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.01132,
+                "z": 0.092783
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": 0.707388044876899,
+                "y": -0.0005628637715330792,
+                "z": 0.7068249569936026
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_right_finger_tip": {
+            "frame": "right_right_finger",
+            "position": {
+                "x": 0.05689,
+                "y": -0.01398,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "right_tcp_link": {
+            "frame": "right_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.215
+            },
+            "rotation": {
+                "w": 0.0005633121735972125,
+                "x": 0.707388044876899,
+                "y": -0.0005628637715330792,
+                "z": 0.7068249569936026
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "r200_camera_chest_housing_frame": {
+            "frame": "torso",
+            "position": {
+                "x": 0.095874,
+                "y": 0.0,
+                "z": 0.415665
+            },
+            "rotation": {
+                "w": 0.9969173337331472,
+                "x": 0.0,
+                "y": 0.07845909572760086,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "camera_chest_link_mount": {
+            "frame": "r200_camera_chest_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": -0.056,
+                "z": 0.0025
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "r200_camera_base_housing_frame": {
+            "frame": "LIOc_base_link",
+            "position": {
+                "x": 0.1185,
+                "y": 0.0,
+                "z": 0.35876
+            },
+            "rotation": {
+                "w": 0.9961946980917644,
+                "x": 0.0,
+                "y": 0.08715574274744252,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "camera_base_link_mount": {
+            "frame": "r200_camera_base_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": -0.056,
+                "z": 0.0025
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "r200_camera_head_front_housing_frame": {
+            "frame": "head",
+            "position": {
+                "x": 0.08244,
+                "y": 0.0,
+                "z": 0.28125
+            },
+            "rotation": {
+                "w": 0.9871641545692381,
+                "x": 0.0,
+                "y": -0.15970889747788447,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "camera_head_front_link_mount": {
+            "frame": "r200_camera_head_front_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": -0.056,
+                "z": 0.0025
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "r200_camera_head_rear_housing_frame": {
+            "frame": "head",
+            "position": {
+                "x": -0.13392,
+                "y": 0.0,
+                "z": 0.15104
+            },
+            "rotation": {
+                "w": -1.0341155355510722e-13,
+                "x": -0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "camera_head_rear_link_mount": {
+            "frame": "r200_camera_head_rear_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": -0.056,
+                "z": 0.0025
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "r200_camera_gripper_right_housing_frame": {
+            "frame": "right_tcp_link",
+            "position": {
+                "x": -0.11,
+                "y": 0.0,
+                "z": -0.052
+            },
+            "rotation": {
+                "w": -1.0331312867024695e-13,
+                "x": -0.9990482215818581,
+                "y": -4.51074861257056e-15,
+                "z": 0.04361938736532777
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "camera_gripper_right_link_mount": {
+            "frame": "r200_camera_gripper_right_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": -0.056,
+                "z": 0.0025
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "r200_camera_gripper_left_housing_frame": {
+            "frame": "left_tcp_link",
+            "position": {
+                "x": -0.11,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 0.9990482215818581,
+                "x": 0.0,
+                "y": -0.04361938736532777,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "camera_gripper_left_link_mount": {
+            "frame": "r200_camera_gripper_left_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": -0.056,
+                "z": 0.0025
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "swivel1": {
+            "frame": "base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "swivel2": {
+            "frame": "base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lower0": {
+            "frame": "base_link",
+            "position": {
+                "x": 0.06,
+                "y": 0.0,
+                "z": 0.045
+            },
+            "rotation": {
+                "w": 0.7071054825112363,
+                "x": 0.7071080798594735,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lower1": {
+            "frame": "swivel1",
+            "position": {
+                "x": 0.06,
+                "y": 0.0,
+                "z": 0.045
+            },
+            "rotation": {
+                "w": 0.7071054825112363,
+                "x": 0.7071080798594735,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "lower2": {
+            "frame": "swivel2",
+            "position": {
+                "x": 0.06,
+                "y": 0.0,
+                "z": 0.045
+            },
+            "rotation": {
+                "w": 0.7071054825112363,
+                "x": 0.7071080798594735,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "upper0": {
+            "frame": "lower0",
+            "position": {
+                "x": 0.0,
+                "y": 0.065,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "upper1": {
+            "frame": "lower1",
+            "position": {
+                "x": 0.0,
+                "y": 0.065,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "upper2": {
+            "frame": "lower2",
+            "position": {
+                "x": 0.0,
+                "y": 0.065,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "tip0": {
+            "frame": "upper0",
+            "position": {
+                "x": -0.007,
+                "y": 0.062,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "tip1": {
+            "frame": "upper1",
+            "position": {
+                "x": -0.007,
+                "y": 0.062,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "tip2": {
+            "frame": "upper2",
+            "position": {
+                "x": -0.007,
+                "y": 0.062,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_link12": {
+            "frame": "base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.212
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_link23": {
+            "frame": "p_rob_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1505
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_link34": {
+            "frame": "p_rob_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.29
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_link45": {
+            "frame": "p_rob_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1645
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_link56": {
+            "frame": "p_rob_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.1455
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_link6G": {
+            "frame": "p_rob_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.129
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_gripper_interface_link": {
+            "frame": "p_rob_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.046
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_gripper_link": {
+            "frame": "p_rob_gripper_interface_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_left_finger": {
+            "frame": "p_rob_gripper_link",
+            "position": {
+                "x": 0.0645,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_right_finger": {
+            "frame": "p_rob_gripper_link",
+            "position": {
+                "x": 0.0645,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        },
+        "p_rob_tcp_link": {
+            "frame": "p_rob_gripper_link",
+            "position": {
+                "x": 0.189,
+                "y": 0.0,
+                "z": 0.052
+            },
+            "rotation": {
+                "w": 1.0,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }
+    },
+    "items": {
+        "wheel_actuated_left": {
+            "shape": "cylinder",
+            "name": "wheel_actuated_left",
+            "frame": "wheel_actuated_left",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.5707963267948966,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "wheel_actuated_left_visualizer": {
+            "shape": "cube",
+            "name": "wheel_actuated_left_visualizer",
+            "frame": "wheel_actuated_left_visualizer",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "wheel_actuated_right": {
+            "shape": "cylinder",
+            "name": "wheel_actuated_right",
+            "frame": "wheel_actuated_right",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.5707963267948966,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "wheel_actuated_right_visualizer": {
+            "shape": "cube",
+            "name": "wheel_actuated_right_visualizer",
+            "frame": "wheel_actuated_right_visualizer",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "caster_left_wheel": {
+            "shape": "package://platform_description/meshes/caswheel.dae",
+            "name": "caster_left_wheel",
+            "frame": "caster_left_wheel",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "caster_left_base": {
+            "shape": "cylinder",
+            "name": "caster_left_base",
+            "frame": "caster_left_base",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.0075
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "caster_right_wheel": {
+            "shape": "package://platform_description/meshes/caswheel.dae",
+            "name": "caster_right_wheel",
+            "frame": "caster_right_wheel",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "caster_right_base": {
+            "shape": "cylinder",
+            "name": "caster_right_base",
+            "frame": "caster_right_base",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.0075
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "base_footprint": {
+            "shape": null,
+            "name": "base_footprint",
+            "frame": "base_footprint",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "platform_base_link": {
+            "shape": "package://platform_description/meshes/platform_LIO.STL",
+            "name": "platform_base_link",
+            "frame": "platform_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.05
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.57
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lidar_front": {
+            "shape": null,
+            "name": "lidar_front",
+            "frame": "lidar_front",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lidar_back": {
+            "shape": null,
+            "name": "lidar_back",
+            "frame": "lidar_back",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lidar_front_helper": {
+            "shape": null,
+            "name": "lidar_front_helper",
+            "frame": "lidar_front_helper",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lidar_back_helper": {
+            "shape": null,
+            "name": "lidar_back_helper",
+            "frame": "lidar_back_helper",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "LIO_base_link": {
+            "shape": null,
+            "name": "LIO_base_link",
+            "frame": "LIO_base_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "rgbd_down_link": {
+            "shape": null,
+            "name": "rgbd_down_link",
+            "frame": "rgbd_down_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "rgbd_up_link": {
+            "shape": null,
+            "name": "rgbd_up_link",
+            "frame": "rgbd_up_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "fisheye_fisheye_base_housing_frame": {
+            "shape": null,
+            "name": "fisheye_fisheye_base_housing_frame",
+            "frame": "fisheye_fisheye_base_housing_frame",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "fisheye_base_link_mount": {
+            "shape": null,
+            "name": "fisheye_base_link_mount",
+            "frame": "fisheye_base_link_mount",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_link12": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link12.STL",
+            "name": "lio_link12",
+            "frame": "lio_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.5,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_link23": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link23.STL",
+            "name": "lio_link23",
+            "frame": "lio_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_link34": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link34.STL",
+            "name": "lio_link34",
+            "frame": "lio_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.5,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_link45": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link45.STL",
+            "name": "lio_link45",
+            "frame": "lio_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_link56": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link56.STL",
+            "name": "lio_link56",
+            "frame": "lio_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.5,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_link6G": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link6G.STL",
+            "name": "lio_link6G",
+            "frame": "lio_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_gripper_interface_link": {
+            "shape": null,
+            "name": "lio_gripper_interface_link",
+            "frame": "lio_gripper_interface_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "LIO_robot_base_link": {
+            "shape": null,
+            "name": "LIO_robot_base_link",
+            "frame": "LIO_robot_base_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_back_cover": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/back_cover.STL",
+            "name": "lio_back_cover",
+            "frame": "lio_back_cover",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_gripper_link": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/p_grip.STL",
+            "name": "lio_gripper_link",
+            "frame": "lio_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 0.5,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_left_finger": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/finger.STL",
+            "name": "lio_left_finger",
+            "frame": "lio_left_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_right_finger": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/finger.STL",
+            "name": "lio_right_finger",
+            "frame": "lio_right_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 3.141592653589793,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lio_tcp_link": {
+            "shape": null,
+            "name": "lio_tcp_link",
+            "frame": "lio_tcp_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "tis_cam": {
+            "shape": null,
+            "name": "tis_cam",
+            "frame": "tis_cam",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "tis_cam_sim_plugin": {
+            "shape": null,
+            "name": "tis_cam_sim_plugin",
+            "frame": "tis_cam_sim_plugin",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US1": {
+            "shape": null,
+            "name": "US1",
+            "frame": "US1",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US2": {
+            "shape": null,
+            "name": "US2",
+            "frame": "US2",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US3": {
+            "shape": null,
+            "name": "US3",
+            "frame": "US3",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US4": {
+            "shape": null,
+            "name": "US4",
+            "frame": "US4",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US5": {
+            "shape": null,
+            "name": "US5",
+            "frame": "US5",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US6": {
+            "shape": null,
+            "name": "US6",
+            "frame": "US6",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US7": {
+            "shape": null,
+            "name": "US7",
+            "frame": "US7",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US8": {
+            "shape": null,
+            "name": "US8",
+            "frame": "US8",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US9": {
+            "shape": null,
+            "name": "US9",
+            "frame": "US9",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "US10": {
+            "shape": null,
+            "name": "US10",
+            "frame": "US10",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "LIOc_base_link": {
+            "shape": "package://p_care_description/meshes/base_link.STL",
+            "name": "LIOc_base_link",
+            "frame": "LIOc_base_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "hip": {
+            "shape": "package://p_care_description/meshes/hip.STL",
+            "name": "hip",
+            "frame": "hip",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "torso": {
+            "shape": "package://p_care_description/meshes/torso.STL",
+            "name": "torso",
+            "frame": "torso",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "head": {
+            "shape": "package://p_care_description/meshes/head.STL",
+            "name": "head",
+            "frame": "head",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_link12": {
+            "shape": "package://p_arm_description/meshes/p_care_left/link12.STL",
+            "name": "left_link12",
+            "frame": "left_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_link23": {
+            "shape": "package://p_arm_description/meshes/p_care_left/link23.STL",
+            "name": "left_link23",
+            "frame": "left_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_link34": {
+            "shape": "package://p_arm_description/meshes/p_care_left/link34.STL",
+            "name": "left_link34",
+            "frame": "left_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_link45": {
+            "shape": "package://p_arm_description/meshes/p_care_left/link45.STL",
+            "name": "left_link45",
+            "frame": "left_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_link56": {
+            "shape": "package://p_arm_description/meshes/p_care_left/link56.STL",
+            "name": "left_link56",
+            "frame": "left_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_link6G": {
+            "shape": "package://p_arm_description/meshes/p_care_left/link6G.STL",
+            "name": "left_link6G",
+            "frame": "left_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_gripper_interface_link": {
+            "shape": null,
+            "name": "left_gripper_interface_link",
+            "frame": "left_gripper_interface_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_link12": {
+            "shape": "package://p_arm_description/meshes/p_care_right/link12.STL",
+            "name": "right_link12",
+            "frame": "right_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_link23": {
+            "shape": "package://p_arm_description/meshes/p_care_right/link23.STL",
+            "name": "right_link23",
+            "frame": "right_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_link34": {
+            "shape": "package://p_arm_description/meshes/p_care_right/link34.STL",
+            "name": "right_link34",
+            "frame": "right_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_link45": {
+            "shape": "package://p_arm_description/meshes/p_care_right/link45.STL",
+            "name": "right_link45",
+            "frame": "right_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_link56": {
+            "shape": "package://p_arm_description/meshes/p_care_right/link56.STL",
+            "name": "right_link56",
+            "frame": "right_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_link6G": {
+            "shape": "package://p_arm_description/meshes/p_care_right/link6G.STL",
+            "name": "right_link6G",
+            "frame": "right_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_gripper_interface_link": {
+            "shape": null,
+            "name": "right_gripper_interface_link",
+            "frame": "right_gripper_interface_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_gripper_link": {
+            "shape": "package://p_grip_description/meshes/p_care_left/p_grip.STL",
+            "name": "left_gripper_link",
+            "frame": "left_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_left_finger": {
+            "shape": "package://p_grip_description/meshes/p_care_left/finger.STL",
+            "name": "left_left_finger",
+            "frame": "left_left_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_left_finger_tip": {
+            "shape": "package://p_grip_description/meshes/p_care_left/finger_tip.STL",
+            "name": "left_left_finger_tip",
+            "frame": "left_left_finger_tip",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_right_finger": {
+            "shape": "package://p_grip_description/meshes/p_care_left/finger.STL",
+            "name": "left_right_finger",
+            "frame": "left_right_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 3.14159265359,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_right_finger_tip": {
+            "shape": "package://p_grip_description/meshes/p_care_left/finger_tip.STL",
+            "name": "left_right_finger_tip",
+            "frame": "left_right_finger_tip",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 3.14159265359,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "left_tcp_link": {
+            "shape": null,
+            "name": "left_tcp_link",
+            "frame": "left_tcp_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_gripper_link": {
+            "shape": "package://p_grip_description/meshes/p_care_right/p_grip.STL",
+            "name": "right_gripper_link",
+            "frame": "right_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_left_finger": {
+            "shape": "package://p_grip_description/meshes/p_care_right/finger.STL",
+            "name": "right_left_finger",
+            "frame": "right_left_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_left_finger_tip": {
+            "shape": "package://p_grip_description/meshes/p_care_right/finger_tip.STL",
+            "name": "right_left_finger_tip",
+            "frame": "right_left_finger_tip",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_right_finger": {
+            "shape": "package://p_grip_description/meshes/p_care_right/finger.STL",
+            "name": "right_right_finger",
+            "frame": "right_right_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 3.14159265359,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_right_finger_tip": {
+            "shape": "package://p_grip_description/meshes/p_care_right/finger_tip.STL",
+            "name": "right_right_finger_tip",
+            "frame": "right_right_finger_tip",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 3.14159265359,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "right_tcp_link": {
+            "shape": null,
+            "name": "right_tcp_link",
+            "frame": "right_tcp_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "r200_camera_chest_housing_frame": {
+            "shape": "package://p_camera_description/meshes/r200.stl",
+            "name": "r200_camera_chest_housing_frame",
+            "frame": "r200_camera_chest_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57079632679,
+                "y": 0.0,
+                "z": -1.57079632679
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 0.001,
+                "y": 0.001,
+                "z": 0.001
+            },
+            "highlight": false
+        },
+        "camera_chest_link_mount": {
+            "shape": null,
+            "name": "camera_chest_link_mount",
+            "frame": "camera_chest_link_mount",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "r200_camera_base_housing_frame": {
+            "shape": "package://p_camera_description/meshes/r200.stl",
+            "name": "r200_camera_base_housing_frame",
+            "frame": "r200_camera_base_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57079632679,
+                "y": 0.0,
+                "z": -1.57079632679
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 0.001,
+                "y": 0.001,
+                "z": 0.001
+            },
+            "highlight": false
+        },
+        "camera_base_link_mount": {
+            "shape": null,
+            "name": "camera_base_link_mount",
+            "frame": "camera_base_link_mount",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "r200_camera_head_front_housing_frame": {
+            "shape": "package://p_camera_description/meshes/r200.stl",
+            "name": "r200_camera_head_front_housing_frame",
+            "frame": "r200_camera_head_front_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57079632679,
+                "y": 0.0,
+                "z": -1.57079632679
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 0.001,
+                "y": 0.001,
+                "z": 0.001
+            },
+            "highlight": false
+        },
+        "camera_head_front_link_mount": {
+            "shape": null,
+            "name": "camera_head_front_link_mount",
+            "frame": "camera_head_front_link_mount",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "r200_camera_head_rear_housing_frame": {
+            "shape": "package://p_camera_description/meshes/r200.stl",
+            "name": "r200_camera_head_rear_housing_frame",
+            "frame": "r200_camera_head_rear_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57079632679,
+                "y": 0.0,
+                "z": -1.57079632679
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 0.001,
+                "y": 0.001,
+                "z": 0.001
+            },
+            "highlight": false
+        },
+        "camera_head_rear_link_mount": {
+            "shape": null,
+            "name": "camera_head_rear_link_mount",
+            "frame": "camera_head_rear_link_mount",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "r200_camera_gripper_right_housing_frame": {
+            "shape": "package://p_camera_description/meshes/r200.stl",
+            "name": "r200_camera_gripper_right_housing_frame",
+            "frame": "r200_camera_gripper_right_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57079632679,
+                "y": 0.0,
+                "z": -1.57079632679
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 0.001,
+                "y": 0.001,
+                "z": 0.001
+            },
+            "highlight": false
+        },
+        "camera_gripper_right_link_mount": {
+            "shape": null,
+            "name": "camera_gripper_right_link_mount",
+            "frame": "camera_gripper_right_link_mount",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "r200_camera_gripper_left_housing_frame": {
+            "shape": "package://p_camera_description/meshes/r200.stl",
+            "name": "r200_camera_gripper_left_housing_frame",
+            "frame": "r200_camera_gripper_left_housing_frame",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 1.57079632679,
+                "y": 0.0,
+                "z": -1.57079632679
+            },
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "scale": {
+                "x": 0.001,
+                "y": 0.001,
+                "z": 0.001
+            },
+            "highlight": false
+        },
+        "camera_gripper_left_link_mount": {
+            "shape": null,
+            "name": "camera_gripper_left_link_mount",
+            "frame": "camera_gripper_left_link_mount",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "base_link": {
+            "shape": "package://p_hand_description/meshes/base_link.STL",
+            "name": "base_link",
+            "frame": "base_link",
+            "position": {
+                "x": -0.0115,
+                "y": 0.0,
+                "z": -0.127
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.8,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "swivel1": {
+            "shape": "package://p_hand_description/meshes/swivel1.STL",
+            "name": "swivel1",
+            "frame": "swivel1",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.045
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.8,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "swivel2": {
+            "shape": "package://p_hand_description/meshes/swivel2.STL",
+            "name": "swivel2",
+            "frame": "swivel2",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.14
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.8,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lower0": {
+            "shape": "package://p_hand_description/meshes/lower.STL",
+            "name": "lower0",
+            "frame": "lower0",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.025
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lower1": {
+            "shape": "package://p_hand_description/meshes/lower.STL",
+            "name": "lower1",
+            "frame": "lower1",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.025
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "lower2": {
+            "shape": "package://p_hand_description/meshes/lower.STL",
+            "name": "lower2",
+            "frame": "lower2",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.025
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "upper0": {
+            "shape": "package://p_hand_description/meshes/upper.STL",
+            "name": "upper0",
+            "frame": "upper0",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.025
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.8,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "upper1": {
+            "shape": "package://p_hand_description/meshes/upper.STL",
+            "name": "upper1",
+            "frame": "upper1",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.025
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.8,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "upper2": {
+            "shape": "package://p_hand_description/meshes/upper.STL",
+            "name": "upper2",
+            "frame": "upper2",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -0.025
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.8,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "tip0": {
+            "shape": null,
+            "name": "tip0",
+            "frame": "tip0",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "tip1": {
+            "shape": null,
+            "name": "tip1",
+            "frame": "tip1",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "tip2": {
+            "shape": null,
+            "name": "tip2",
+            "frame": "tip2",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_link12": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link12.STL",
+            "name": "p_rob_link12",
+            "frame": "p_rob_link12",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_link23": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link23.STL",
+            "name": "p_rob_link23",
+            "frame": "p_rob_link23",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_link34": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link34.STL",
+            "name": "p_rob_link34",
+            "frame": "p_rob_link34",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_link45": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link45.STL",
+            "name": "p_rob_link45",
+            "frame": "p_rob_link45",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_link56": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link56.STL",
+            "name": "p_rob_link56",
+            "frame": "p_rob_link56",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_link6G": {
+            "shape": "package://p_arm_description/meshes/p_rob_2R/link6G.STL",
+            "name": "p_rob_link6G",
+            "frame": "p_rob_link6G",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_gripper_interface_link": {
+            "shape": null,
+            "name": "p_rob_gripper_interface_link",
+            "frame": "p_rob_gripper_interface_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_back_cover": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/back_cover.STL",
+            "name": "p_rob_back_cover",
+            "frame": "p_rob_back_cover",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_gripper_link": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/p_grip.STL",
+            "name": "p_rob_gripper_link",
+            "frame": "p_rob_gripper_link",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.12549019607843137,
+                "g": 0.2784313725490196,
+                "b": 0.43529411764705883,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_left_finger": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/finger.STL",
+            "name": "p_rob_left_finger",
+            "frame": "p_rob_left_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_right_finger": {
+            "shape": "package://p_grip_description/meshes/p_grip_2F/finger.STL",
+            "name": "p_rob_right_finger",
+            "frame": "p_rob_right_finger",
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 3.14159265359,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        },
+        "p_rob_tcp_link": {
+            "shape": null,
+            "name": "p_rob_tcp_link",
+            "frame": "p_rob_tcp_link",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "w": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "color": "",
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "highlight": false
+        }
+    }
+}

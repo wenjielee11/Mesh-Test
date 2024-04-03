@@ -9,32 +9,32 @@ import './App.css'
 
 
 function App() {
-  const [tfs, setTfs] = useState(null)
-  const [items, setItems] = useState(null)
+  // const [tfs, setTfs] = useState(null)
+  // const [items, setItems] = useState(null)
   
-  useEffect( ()=>{
-    const items = parseUrdfForLinks(urdf)
-    setItems(items) 
-  }, []);
+  // useEffect( ()=>{
+  //   const items = parseUrdfForLinks(urdf)
+  //   setItems(items) 
+  // }, []);
 
-  useEffect(() => {
-    if (items) {
-      const tfs = parseUrdfForJoints(urdf, items)
-      setTfs(tfs);
-    }
-  }, [items]); 
+  // useEffect(() => {
+  //   if (items) {
+  //     const tfs = parseUrdfForJoints(urdf, items)
+  //     setTfs(tfs);
+  //   }
+  // }, [items]); 
 
-  useEffect(()=>{
-    tfs && useStore.getState().updateTfs(tfs);
-    console.log(tfs)
-  }, [tfs])
+  // useEffect(()=>{
+  //   tfs && useStore.getState().updateTfs(tfs);
+  //   console.log("tfs", tfs)
+  // }, [tfs])
 
-  useEffect(()=>{
-    items&& useStore.getState().updateItems(items);
-    console.log(items)
-  }, [items])
+  // useEffect(()=>{
+  //   items&& useStore.getState().updateItems(items);
+  //   console.log("items", items)
+  // }, [items])
 
-  
+
   const otherArgs = {
     displayTfs: true,
     displayGrid: true,

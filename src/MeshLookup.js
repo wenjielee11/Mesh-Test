@@ -1,57 +1,55 @@
-import base_imu from "./MeshLoaders/./Stretch/visual/base_imu.js"
-import base_link from "./MeshLoaders/Stretch/visual/base_link.js"
-import laser from "./MeshLoaders/./Stretch/visual/laser.js"
-import link_arm_l0 from "./MeshLoaders/./Stretch/visual/link_arm_l0.js"
-import link_arm_l1 from "./MeshLoaders/./Stretch/visual/link_arm_l1.js"
-import link_arm_l2 from "./MeshLoaders/./Stretch/visual/link_arm_l2.js"
-import link_arm_l3 from "./MeshLoaders/./Stretch/visual/link_arm_l3.js"
-import link_arm_l4 from "./MeshLoaders/./Stretch/visual/link_arm_l4.js"
-import link_aruco_inner_wrist from "./MeshLoaders/./Stretch/visual/link_aruco_inner_wrist.js"
-import link_aruco_left_base from "./MeshLoaders/./Stretch/visual/link_aruco_left_base.js"
-import link_aruco_right_base from "./MeshLoaders/./Stretch/visual/link_aruco_right_base.js"
-import link_aruco_shoulder from "./MeshLoaders/./Stretch/visual/link_aruco_shoulder.js"
-import link_aruco_top_wrist from "./MeshLoaders/./Stretch/visual/link_aruco_top_wrist.js"
-import link_camera from "./MeshLoaders/./Stretch/visual/link_camera.js"
-import link_dry_erase_holder from "./MeshLoaders/./Stretch/visual/link_dry_erase_holder.js"
-import link_dry_erase_marker from "./MeshLoaders/./Stretch/visual/link_dry_erase_marker.js"
-import link_gripper from "./MeshLoaders/./Stretch/visual/link_gripper.js"
-import link_gripper_fingertip_left from "./MeshLoaders/./Stretch/visual/link_gripper_fingertip_left.js"
-import link_gripper_fingertip_right from "./MeshLoaders/./Stretch/visual/link_gripper_fingertip_right.js"
-import link_gripper_finger_left from "./MeshLoaders/./Stretch/visual/link_gripper_finger_left.js"
-import link_gripper_finger_right from "./MeshLoaders/./Stretch/visual/link_gripper_finger_right.js"
-import link_head from "./MeshLoaders/./Stretch/visual/link_head.js"
-import link_head_pan from "./MeshLoaders/./Stretch/visual/link_head_pan.js"
-import link_head_tilt from "./MeshLoaders/./Stretch/visual/link_head_tilt.js"
-import link_left_wheel from "./MeshLoaders/./Stretch/visual/link_left_wheel.js"
-import link_lift from "./MeshLoaders/./Stretch/visual/link_lift.js"
-import link_mast from "./MeshLoaders/./Stretch/visual/link_mast.js"
-import link_puller from "./MeshLoaders/./Stretch/visual/link_puller.js"
-import link_respeaker from "./MeshLoaders/./Stretch/visual/link_respeaker.js"
-import link_right_wheel from "./MeshLoaders/./Stretch/visual/link_right_wheel.js"
-import link_straight_gripper from "./MeshLoaders/./Stretch/visual/link_straight_gripper.js"
-import link_wrist_pitch from "./MeshLoaders/./Stretch/visual/link_wrist_pitch.js"
-import link_wrist_roll from "./MeshLoaders/./Stretch/visual/link_wrist_roll.js"
-import link_wrist_yaw from "./MeshLoaders/./Stretch/visual/link_wrist_yaw.js"
-import link_wrist_yaw_bottom from "./MeshLoaders/./Stretch/visual/link_wrist_yaw_bottom.js"
-import omni_wheel_m from "./MeshLoaders/./Stretch/visual/omni_wheel_m.js"
-import respeaker_base from "./MeshLoaders/./Stretch/visual/respeaker_base.js"
+import BASE_FRONT_GRILL_1 from "./MeshLoaders/./Misty/visual/BASE_FRONT_GRILL_1.js"
+import BASE_LEFT_COVER_1 from "./MeshLoaders/./Misty/visual/BASE_LEFT_COVER_1.js"
+import base_link from "./MeshLoaders/./Misty/visual/base_link.js"
+import BASE_RIGHT_COVER_1 from "./MeshLoaders/./Misty/visual/BASE_RIGHT_COVER_1.js"
+import Battery_1 from "./MeshLoaders/./Misty/visual/Battery_1.js"
+import BODY_BASE_CONNECTOR_1 from "./MeshLoaders/./Misty/visual/BODY_BASE_CONNECTOR_1.js"
+import DRIVE_TRACK_LEFT_1 from "./MeshLoaders/./Misty/visual/DRIVE_TRACK_LEFT_1.js"
+import DRIVE_TRACK_RIGHT_1 from "./MeshLoaders/./Misty/visual/DRIVE_TRACK_RIGHT_1.js"
+import EYE_LENS_1 from "./MeshLoaders/./Misty/visual/EYE_LENS_1.js"
+import FACE_1 from "./MeshLoaders/./Misty/visual/FACE_1.js"
+import FRONT_LEFT_WHEEL_1 from "./MeshLoaders/./Misty/visual/FRONT_LEFT_WHEEL_1.js"
+import FRONT_RIGHT_WHEEL_1 from "./MeshLoaders/./Misty/visual/FRONT_RIGHT_WHEEL_1.js"
+import HEAD_1 from "./MeshLoaders/./Misty/visual/HEAD_1.js"
+import HEAD_VENT_LEFT_1 from "./MeshLoaders/./Misty/visual/HEAD_VENT_LEFT_1.js"
+import HEAD_VENT_RIGHT_1 from "./MeshLoaders/./Misty/visual/HEAD_VENT_RIGHT_1.js"
+import LEFT_ARM_1 from "./MeshLoaders/./Misty/visual/LEFT_ARM_1.js"
+import LEFT_ARM_CONNECTOR_1 from "./MeshLoaders/./Misty/visual/LEFT_ARM_CONNECTOR_1.js"
+import MIDDLE_LEFT_WHEEL_1 from "./MeshLoaders/./Misty/visual/MIDDLE_LEFT_WHEEL_1.js"
+import MIDDLE_RIGHT_WHEEL_1 from "./MeshLoaders/./Misty/visual/MIDDLE_RIGHT_WHEEL_1.js"
+import NECK_GLOBE_BASE_1 from "./MeshLoaders/./Misty/visual/NECK_GLOBE_BASE_1.js"
+import REAR_LEFT_WHEEL_1 from "./MeshLoaders/./Misty/visual/REAR_LEFT_WHEEL_1.js"
+import REAR_RIGHT_WHEEL_1 from "./MeshLoaders/./Misty/visual/REAR_RIGHT_WHEEL_1.js"
+import RIGHT_ARM_1 from "./MeshLoaders/./Misty/visual/RIGHT_ARM_1.js"
+import RIGHT_ARM_CONNECTOR_1 from "./MeshLoaders/./Misty/visual/RIGHT_ARM_CONNECTOR_1.js"
+import Torso_1 from "./MeshLoaders/./Misty/visual/Torso_1.js"
+import VISOR_GLASS_1 from "./MeshLoaders/./Misty/visual/VISOR_GLASS_1.js"
 
 const MeshLookupTable = {
-  "package://stretch_description/meshes/base_link.STL": base_link,
-  "package://stretch_description/meshes/link_arm_l0.STL": link_arm_l0,
-  "package://stretch_description/meshes/link_arm_l1.STL": link_arm_l1,
-  "package://stretch_description/meshes/link_arm_l2.STL": link_arm_l2,
-  "package://stretch_description/meshes/link_arm_l3.STL": link_arm_l3,
-  "package://stretch_description/meshes/link_arm_l4.STL": link_arm_l4,
-  "package://stretch_description/meshes/link_head.STL": link_head,
-  "package://stretch_description/meshes/link_head_pan.STL": link_head_pan,
-  "package://stretch_description/meshes/link_head_tilt.STL": link_head_tilt,
-  "package://stretch_description/meshes/link_left_wheel.STL": link_left_wheel,
-  "package://stretch_description/meshes/link_lift.STL": link_lift,
-  "package://stretch_description/meshes/link_mast.STL": link_mast,
-  "package://stretch_description/meshes/link_right_wheel.STL": link_right_wheel,
-  "package://stretch_description/meshes/link_wrist_yaw.STL": link_wrist_yaw,
-  "package://stretch_description/meshes/omni_wheel_m.STL": omni_wheel_m,
+  "package://misty_description/meshes/BASE_FRONT_GRILL_1.stl": BASE_FRONT_GRILL_1,
+  "package://misty_description/meshes/BASE_LEFT_COVER_1.stl": BASE_LEFT_COVER_1,
+  "package://misty_description/meshes/base_link.stl": base_link,
+  "package://misty_description/meshes/BASE_RIGHT_COVER_1.stl": BASE_RIGHT_COVER_1,
+  "package://misty_description/meshes/Battery_1.stl": Battery_1,
+  "package://misty_description/meshes/BODY_BASE_CONNECTOR_1.stl": BODY_BASE_CONNECTOR_1,
+  "package://misty_description/meshes/EYE_LENS_1.stl": EYE_LENS_1,
+  "package://misty_description/meshes/FACE_1.stl": FACE_1,
+  "package://misty_description/meshes/FRONT_LEFT_WHEEL_1.stl": FRONT_LEFT_WHEEL_1,
+  "package://misty_description/meshes/FRONT_RIGHT_WHEEL_1.stl": FRONT_RIGHT_WHEEL_1,
+  "package://misty_description/meshes/HEAD_1.stl": HEAD_1,
+  "package://misty_description/meshes/HEAD_VENT_LEFT_1.stl": HEAD_VENT_LEFT_1,
+  "package://misty_description/meshes/HEAD_VENT_RIGHT_1.stl": HEAD_VENT_RIGHT_1,
+  "package://misty_description/meshes/LEFT_ARM_1.stl": LEFT_ARM_1,
+  "package://misty_description/meshes/LEFT_ARM_CONNECTOR_1.stl": LEFT_ARM_CONNECTOR_1,
+  "package://misty_description/meshes/MIDDLE_LEFT_WHEEL_1.stl": MIDDLE_LEFT_WHEEL_1,
+  "package://misty_description/meshes/MIDDLE_RIGHT_WHEEL_1.stl": MIDDLE_RIGHT_WHEEL_1,
+  "package://misty_description/meshes/NECK_GLOBE_BASE_1.stl": NECK_GLOBE_BASE_1,
+  "package://misty_description/meshes/REAR_LEFT_WHEEL_1.stl": REAR_LEFT_WHEEL_1,
+  "package://misty_description/meshes/REAR_RIGHT_WHEEL_1.stl": REAR_RIGHT_WHEEL_1,
+  "package://misty_description/meshes/RIGHT_ARM_1.stl": RIGHT_ARM_1,
+  "package://misty_description/meshes/RIGHT_ARM_CONNECTOR_1.stl": RIGHT_ARM_CONNECTOR_1,
+  "package://misty_description/meshes/Torso_1.stl": Torso_1,
+  "package://misty_description/meshes/VISOR_GLASS_1.stl": VISOR_GLASS_1,
 };
 
 const MeshLookup = (path) => MeshLookupTable[path]();
